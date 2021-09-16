@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+:root {
+  --primary-color: #b8c593;
+}
+
+body {
+  font-family: "Pacifico", cursive;
+  margin: 0px;
+  width: 100%;
+}
+
+.hero {
+  background-color: var(--primary-color);
+  padding: 0.2rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+}
+
+main {
+  box-sizing: border-box;
+  display: block;
+  margin: auto 10rem;
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+main textarea ::-webkit-input-placeholder {
+  font-family: "Pacifico", cursive;
+}
+
+#txt-input {
+  width: 100%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: large;
+}
+
+#btn-translate {
+  background-color: var(--primary-color);
+  border: none;
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-family: "Pacifico", cursive;
+}
+
+#output {
+  min-height: 10vh;
+  max-height: 20vh;
+  border: 1px solid black;
+}
+
+.footer {
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem 0rem 0rem 0rem;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+footer #about {
+  font-size: 2rem;
+}
+
+.footer p {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 1rem;
+}
